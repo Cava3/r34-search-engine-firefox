@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "R34 search engine",
+    "version": "0.1",
+  
+    "description": "Adds the R34 search engine to Firefox.",
+  
+    "icons": {
+      "48": "icons/icon-48.png"
+    },
+
+    "chrome_settings_overrides" : {
+      "search_provider" : {
+        "name": "R34",
+        "keyword": "r34",
+        "search_url": "https://rule34.xxx/index.php?page=post&s=list&tags={searchTerms}",
+        "favicon_url": "https://rule34.xxx/favicon.ico"
+      }
+    },
+
+    "author": "Roucool"
+  }
+  
